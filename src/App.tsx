@@ -1,4 +1,7 @@
 import './App.css';
+import Body from './Layout/Body/Body';
+import Header from './Layout/Header/Header';
+import Titlebar from './Layout/Titlebar/Titlebar';
 
 function App() {
   return (
@@ -8,16 +11,18 @@ function App() {
       <div className='Calculator-app'>
 
         {/* Titlebar */}
-        <div className='Titlebar'>
-          App Title | Window Controls
+        <div className='Titlebar-container'>
+          <Titlebar />
         </div>
 
-        <div className='Header'>
-          Calculations and Results
+        {/* Header */}
+        <div className='Header-container'>
+          <Header />
         </div>
 
-        <div className='Body'>
-          Buttons
+        {/* Body */}
+        <div className='Body-container'>
+          <Body />
         </div>
 
       </div>

@@ -1,0 +1,42 @@
+.Titlebar {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Titlebar .App-title {
+    font-size: 0.9rem;
+    padding-left: 16px;
+}
+
+.Titlebar .Window-controls {
+    display: flex;
+    flex-direction: row;
+    padding-right: 8px;
+}
+
+.Window-controls button {
+    background-color: #222222;
+    border-radius: 9px;
+    border: 0;
+    display: block;
+    height: 18px;
+    margin: 0 4px;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    width: 18px;
+}
+
+.Window-controls button:hover {
+    transform: scale(1.2);
+}
+
+.Window-controls .Minimize:hover {
+    background-color: #ff9100;
+}
+
+.Window-controls .Close:hover {
+    background-color: #ff2600;
+}
