@@ -5,6 +5,10 @@
     height: 100%;
     justify-content: space-between;
     width: 100%;
+
+    /* Makes window draggable */
+    -webkit-app-region: drag;
+    -webkit-user-select: none;
 }
 
 .Titlebar .App-title {
@@ -16,6 +20,8 @@
     display: flex;
     flex-direction: row;
     padding-right: 8px;
+
+    -webkit-app-region: no-drag;
 }
 
 .Window-controls button {
