@@ -1,0 +1,11 @@
+.Header {
+    align-items: flex-end;
+    color: #999999;
+    display: flex;
+    flex-direction: row;
+    font-size: 4rem;
+    height: 100%;
+    justify-content: flex-end;
+    padding: 16px;
+    width: 100%;
+}
